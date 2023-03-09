@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply box-border;
+}
+
+.player-thumb:hover .player-point {
+  @apply block;
+}
+.player-thumb:hover {
+  @apply h-[6px];
+}
+.player-point {
+  @apply absolute top-1/2 -right-1 h-2 w-2 rounded-full bg-white -translate-y-1 hidden;
+}
+.rc-scrollbar-thumb {
+  background-color: blue;
+}
+.parent-overlay:hover > img {
+  @apply scale-105 transition-all;
+}
+.parent-overlay:hover .child-overlay {
+  @apply flex;
+}
+.text-shadow {
+  text-shadow: 1px 1px 0 #ccc, -1px 1px 0 #ccc, 1px -1px 0 #ccc,
+    -1px -1px 0 #ccc;
+}
+.text-shadow-no1 {
+  text-shadow: 1px 1px 0 #4a90e2, -1px 1px 0 #4a90e2, 1px -1px 0 #4a90e2,
+    -1px -1px 0 #4a90e2;
+}
+.text-shadow-no2 {
+  text-shadow: 1px 1px 0 #27bd9c, -1px 1px 0 #27bd9c, 1px -1px 0 #27bd9c,
+    -1px -1px 0 #27bd9c;
+}
+.text-shadow-no3 {
+  text-shadow: 1px 1px 0 #e35050, -1px 1px 0 #e35050, 1px -1px 0 #e35050,
+    -1px -1px 0 #e35050;
+}
+.slick-arrow.slick-prev:before,
+.slick-arrow.slick-next:before {
+  font-size: 40px;
+}
+
+.volThumb:hover {
+  height: 6px;
+  @apply rounded-md;
+}
+.volThumb:hover .volTrack span {
+  display: block;
+}
+.songitem:hover .songadd {
+  display: flex;
+}
+.songitem:hover .songtime {
+  display: none;
+}
