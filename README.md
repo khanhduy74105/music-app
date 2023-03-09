@@ -22,19 +22,27 @@ This project is built using the following technologies:
 
 ### SERVER
 
-RESTful API referance: https://www.npmjs.com/package/zingmp3-api
-MySQL - an open source relational database management system that provides a scalable, high-performance storage engine for structured data.
-Node.js - a JavaScript runtime built on Chrome's V8 JavaScript engine that allows for server-side execution of JavaScript code. It provides a non-blocking I/O model that makes it ideal for building scalable, real-time applications.
-Express - a fast, minimalist web framework for Node.js that provides a robust set of features for web and mobile applications. It provides a way to create server-side routes, middleware, and handle HTTP requests and responses.
-JWT (JSON Web Token) - a compact, URL-safe means of representing claims to be transferred between two parties. It provides a way to securely transmit information between the client and the server.
+#### RESTful API referance: https://www.npmjs.com/package/zingmp3-api
+
+#### MySQL - an open source relational database management system that provides a scalable, high-performance storage engine for structured data.
+
+#### Node.js - a JavaScript runtime built on Chrome's V8 JavaScript engine that allows for server-side execution of JavaScript code. It provides a non-blocking I/O model that makes it ideal for building scalable, real-time applications.
+
+#### Express - a fast, minimalist web framework for Node.js that provides a robust set of features for web and mobile applications. It provides a way to create server-side routes, middleware, and handle HTTP requests and responses.
+
+#### JWT (JSON Web Token) - a compact, URL-safe means of representing claims to be transferred between two parties. It provides a way to securely transmit information between the client and the server.
 
 ### CLIENT
 
-React - A JavaScript library for building user interfaces
-Tailwind CSS - A utility-first CSS framework for rapidly building custom user interfaces
-TypeScript - A superset of JavaScript that adds optional static typing and other features
-use-hook-form - A library for managing form state in React using hooks
-react-query - A library for managing server state in React using query functions
+#### React - A JavaScript library for building user interfaces
+
+#### Tailwind CSS - A utility-first CSS framework for rapidly building custom user interfaces
+
+#### TypeScript - A superset of JavaScript that adds optional static typing and other features
+
+#### use-hook-form - A library for managing form state in React using hooks
+
+#### react-query - A library for managing server state in React using query functions
 
 ## OVERVIEW
 
